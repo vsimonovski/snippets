@@ -1,3 +1,8 @@
+/*
+ * Source: http://goo.gl/FyY9DZ
+ *
+ */
+
 package sifrovanje;
 
 import java.util.Scanner;
@@ -15,19 +20,22 @@ public class Sifrovanje {
 				sifrovano += " ";
 				continue;
 			}
-			switch (c) {
+			switch (Character.toUpperCase(c)) {
 			case 'A':
-			case 'a':
 			case 'E':
-			case 'e':
 			case 'I':
-			case 'i':
 			case 'O':
-			case 'o':
 			case 'U':
-			case 'u':
+			case 'Y':
+			case 'Å':
+			case 'Ä':
+			case 'Ö':
 			case '!':
 			case '\'':
+			case '.' :
+			case ',' :
+			case '?' :
+			case '\"':
 				if(i == 0)
 					sifrovano = c + "";
 				else 
@@ -37,7 +45,9 @@ public class Sifrovanje {
 
 			default:
 				if(i == 0)
-					sifrovano = c + "o" + Character.toLowerCase(c);
+					sifrovano = "";
+				if(Character.isUpperCase(c))
+					sifrovano += c + "o" + Character.toLowerCase(c);
 				else
 					sifrovano += c + "o" + c;
 				break;
