@@ -1,4 +1,5 @@
 /*
+ * Source: http://goo.gl/obMrmZ
  *
 */
 
@@ -22,4 +23,3 @@ public class NameGame {
 	}
 
 }
-
