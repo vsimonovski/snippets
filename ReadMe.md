@@ -1,4 +1,4 @@
-dailyProgrammer
+Programming
 ================
 
 * This repositorie contains solved problems from https://www.reddit.com/r/dailyprogrammer .
