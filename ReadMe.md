@@ -1,6 +1,6 @@
-vsimonovski/projects
+vsimonovski/snippets
 ==========================
 
-* This repositorie contains projects and exercises solved in different prog. languages, from different sources.
+* This repositorie contains code snippets representing problems solved in different prog. languages, from different sources.
 * Purpouse of this repositorie is just for fun and practice.
-* Files and projects will be added as soon as possible(I need to organize and comment them first), for now there are few small scripts and programs you can take a look at.
+* More snippets will be added as soon as possible(I need to organize and comment them first), for now there are few of them that you can take a look at.
